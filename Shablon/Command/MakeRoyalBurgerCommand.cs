@@ -4,20 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shablon
+namespace Shablon.Command
 {
-    public class MakeClassicBurgerCommand : ICommand
+    public class MakeRoyalBurgerCommand : ICommand
     {
         private Chef _chef;
 
-        public MakeClassicBurgerCommand(Chef chef)
+        public MakeRoyalBurgerCommand(Chef chef)
         {
             _chef = chef;
         }
 
         public void Execute()
         {
-            _chef.MakeClassicBurger();
+            _chef.MakeRoyalBurger();
         }
     }
 }

@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shablon
+namespace Shablon.Factory
 {
-    public interface ICommand
+    public interface IBurger
     {
-        void Execute();
+        string GetDescription();
     }
 }

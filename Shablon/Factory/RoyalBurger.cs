@@ -4,13 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shablon
+namespace Shablon.Factory
 {
-    public class VeggieBurger : IBurger
+    public class RoyalBurger : IBurger
     {
         public string GetDescription()
         {
-            return "Veggie Burger";
+            return "Royal Burger";
         }
     }
 }

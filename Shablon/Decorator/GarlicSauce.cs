@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Shablon.Factory;
 
-namespace Shablon
+namespace Shablon.Decorator
 {
     public class GarlicSauce : BurgerDecorator
     {

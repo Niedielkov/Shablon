@@ -1,4 +1,8 @@
 ﻿using Shablon;
+using Shablon.Command;
+using Shablon.Decorator;
+using Shablon.Factory;
+using Shablon.Singleton;
 using System.Diagnostics;
 
 Restaurant restaurant = Restaurant.GetInstance();

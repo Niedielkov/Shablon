@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Shablon
+namespace Shablon.Command
 {
     public class MakeVeggieBurgerCommand : ICommand
     {
